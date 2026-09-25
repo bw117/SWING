@@ -9,6 +9,17 @@
 - [ ] Performance tested on representative iOS devices
 - [ ] Performance tested on representative Android devices
 
+## Development / Test Devices
+
+- [ ] Windows development machine
+- [ ] Primary iPhone test device available
+- [ ] Android test device available (family/borrowed device is sufficient initially)
+- [ ] Android test device model and Android version documented
+- [ ] iOS test-device matrix defined before release
+- [ ] Android test-device matrix defined before release
+- [ ] At least one lower-end Android device tested before release
+- [ ] iOS build/install process tested before release
+
 ## Analytics
 
 - [ ] Production analytics configured
