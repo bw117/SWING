@@ -17,41 +17,52 @@ Target: approximately 5–10 development hours.
 - [x] Hook interaction
 - [x] Basic swing physics
 - [x] Release mechanic
-- [ ] Camera follow
+- [x] Camera follow
 - [x] Restart / failure state prototype
 - [x] Basic temporary visuals
-- [ ] Deliberate hook selection / ability to skip hooks
-- [ ] Longer horizontal gameplay space
+- [x] Deliberate hook selection / ability to skip hooks
+- [x] Longer horizontal gameplay space
 
-**Current status:** A first playable swing proof of concept runs locally. The current version is intentionally crude: it uses fixed hooks on one screen and selects the nearest hook. The next iteration focuses on world movement, camera follow and deliberate hook selection.
-
-**Success criterion:** the core swing/release loop feels worth iterating on.
+**Status:** Complete enough to validate the core mechanic. The swing now uses a pendulum-style physics model and the current version feels smooth enough to serve as the movement baseline.
 
 ## Phase 2 — Playable prototype
 
-Target: approximately 15–30 total hours.
+Current focus.
 
-- [ ] Tune physics and game feel
+- [x] Validate core swing/game feel
+- [ ] Convert fixed level into an endless run
+- [ ] Remove fixed finish line
+- [ ] Distance score in meters
+- [ ] Run-over state with final distance
+- [ ] Best distance / high score
+- [ ] Continuous hook generation
 - [ ] Multiple hook configurations
-- [ ] Basic procedural or semi-procedural path generation
-- [ ] Score / distance
 - [ ] Basic obstacles
 - [ ] First sound effects
-- [ ] Basic UI
+- [ ] Basic HUD
 
-## Phase 3 — MVP
+## Phase 3 — Visual prototype / vertical slice
 
-Target: approximately 30–50 total hours.
+- [ ] Replace debug player with final-direction character asset
+- [ ] Create distinctive hook/cable asset
+- [ ] Layered environment / parallax background
+- [ ] Player swing/release animation states
+- [ ] Motion trail and particles
+- [ ] Hook attach/release effects
+- [ ] First coherent visual style
+- [ ] Environment hazards and obstacles
 
-- [ ] Reliable game loop
-- [ ] Progression concept
+## Phase 4 — MVP
+
+- [ ] Reliable endless game loop
+- [ ] Difficulty scaling
 - [ ] More gameplay variety
 - [ ] Analytics foundation
 - [ ] Audio system
 - [ ] Performance testing
 - [ ] iOS and Android test builds
 
-## Phase 4 — Commercial candidate
+## Phase 5 — Commercial candidate
 
 Indicative target: approximately 60–100+ total hours, depending on scope.
 
@@ -64,9 +75,8 @@ Indicative target: approximately 60–100+ total hours, depending on scope.
 - [ ] Privacy / compliance implementation
 - [ ] Store assets and listings
 - [ ] Crash monitoring
-- [ ] Device testing
 
-## Phase 5 — Post-launch
+## Phase 6 — Post-launch
 
 Only after launch data validates demand:
 
@@ -74,6 +84,7 @@ Only after launch data validates demand:
 - [ ] New mechanics
 - [ ] Cosmetics
 - [ ] Events / challenges
+- [ ] Leaderboards
 - [ ] Content updates
 - [ ] Monetization optimization
 
