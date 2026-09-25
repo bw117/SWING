@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+build/
+dist/
+release/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# IDE / OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Generated / temporary
+.tmp/
+tmp/
+
+# Platform-specific generated files
+DerivedData/
+
+# Local configuration
+*.local
