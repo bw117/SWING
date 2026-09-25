@@ -6,20 +6,24 @@ This roadmap is intentionally lightweight. Scope should expand only after the co
 
 - [x] Create repository
 - [x] Establish documentation structure
-- [ ] Select cross-platform game technology
-- [ ] Establish initial project structure
+- [x] Select cross-platform game technology — Godot 4.x / GDScript
+- [x] Establish initial project structure
 
 ## Phase 1 — Proof of concept
 
 Target: approximately 5–10 development hours.
 
-- [ ] Basic player movement
-- [ ] Hook interaction
-- [ ] Swing physics
-- [ ] Release mechanic
+- [x] Basic player movement / gravity prototype
+- [x] Hook interaction
+- [x] Basic swing physics
+- [x] Release mechanic
 - [ ] Camera follow
-- [ ] Restart / failure state
-- [ ] Basic temporary visuals
+- [x] Restart / failure state prototype
+- [x] Basic temporary visuals
+- [ ] Deliberate hook selection / ability to skip hooks
+- [ ] Longer horizontal gameplay space
+
+**Current status:** A first playable swing proof of concept runs locally. The current version is intentionally crude: it uses fixed hooks on one screen and selects the nearest hook. The next iteration focuses on world movement, camera follow and deliberate hook selection.
 
 **Success criterion:** the core swing/release loop feels worth iterating on.
 
