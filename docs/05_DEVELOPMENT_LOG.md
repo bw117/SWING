@@ -51,6 +51,44 @@ This file records meaningful development sessions and decisions. It should be up
 - Development Log
 - Decision Log as needed
 
+## 2026-09-25 — Swing physics validated
+
+### What we built
+
+- Reworked the swing movement into a pendulum-style physics model.
+- Kept the horizontal camera movement and deliberate hook selection.
+- Added the ability to skip hooks rather than forcing a sequence.
+- Added a clear restart/game-over state.
+- Kept instructions in a fixed screen-space UI layer so they no longer move with the player.
+- Added a first visual polish pass using layered background, styled hooks, rope and player debug visuals.
+
+### Findings
+
+- The pendulum-based swing feels substantially smoother than the previous physics implementations.
+- Momentum now carries more naturally between attaching, swinging and releasing.
+- The current fixed hook path is playable but will eventually be replaced by continuous generation.
+- The current ball/player and hook visuals are still placeholders and are not representative of the intended final art direction.
+
+### Product/design decision
+
+The game is now intended to be an **endless run**, not a fixed level with a finish line.
+
+The primary score will be **distance travelled in meters**. Falling ends a run. Best distance/high score can be retained later.
+
+The intended final visual direction is a stylized character, distinctive hook/cable, layered environment, animation, particles and motion effects rather than simply changing prototype colors.
+
+### Next session
+
+1. Remove the fixed finish-line concept.
+2. Convert the run to a distance-based score.
+3. Add run-over score and high-score structure.
+4. Start continuous hook generation.
+5. After the gameplay structure is stable, replace the debug visuals with the intended character, hook and environment art.
+
+### Important baseline
+
+The current pendulum swing physics are the gameplay baseline. Do not rewrite the physics unless a concrete gameplay problem is identified.
+
 ## Session template
 
 ### Date
