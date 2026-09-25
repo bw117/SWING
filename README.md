@@ -8,11 +8,24 @@ SWING is a mobile game concept built around momentum, timing and movement. The c
 
 - iOS — planned from day one
 - Android — planned from day one
+- Current development/testing: Windows + Godot 4.x
 
 ## Current status
 
-**Phase:** Project setup / pre-prototype  
-**Goal:** Build a playable proof of concept before investing heavily in content, monetization or polish.
+**Phase:** Playable prototype / core gameplay validated  
+**Current build:** Swing physics prototype with horizontal camera movement, selectable hooks, hook skipping, restart/game-over state and fixed UI instructions.
+
+The core swing currently feels smooth enough to use as the physics baseline for further development. The game is moving toward an **endless-run structure** rather than a fixed finish line.
+
+### Current design direction
+
+- Endless run rather than a fixed level finish.
+- Primary score is distance travelled in meters.
+- Falling ends the run.
+- Best distance/high score will be retained later.
+- Hooks will eventually be generated continuously as the player progresses.
+- Current player/hook/background visuals are temporary prototype art.
+- Final visual direction is intended to use a stylized character, distinctive hook/cable design, layered environment, particles and strong motion effects.
 
 ## Development philosophy
 
@@ -23,6 +36,7 @@ SWING is a mobile game concept built around momentum, timing and movement. The c
 5. Build analytics into the architecture at the appropriate stage.
 6. Treat audio, monetization and legal/compliance as first-class project concerns.
 7. Keep this repository as the single source of truth for project decisions and documentation.
+8. Freeze working physics when the game feel is good; make changes only when a concrete gameplay problem is identified.
 
 ## Documentation
 
